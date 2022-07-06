@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background-color: #0c0404;/*fondo*/
+   padding:  0rem;
+  margin:  35rem;
+    font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+ display: inline;
+
+}
+h1{
+    color:blue;
+    font-size: 10mm;
+    text-align: center;
+
+}
+p{
+    color:rgb(20, 20, 215);
+    font-size: 16px;
+    text-align: center;
+}
+
+input   {
+    display: inline;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+	font-family: "Roboto", sans-serif;
+    color: #0095eb;
+    text-align: center;
+    }
+  
+body{
+    background-image: url("https://scontent.fyai1-1.fna.fbcdn.net/v/t39.30808-6/285621660_1029707581080023_6308204690041174771_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ku7tLcIldpAAX9nQOqk&_nc_ht=scontent.fyai1-1.fna&oh=00_AT8oyWCFOhOEUHEnYqGDyNbbrc4cTnfamNhkjD3NzXt_Gw&oe=62CACD9E");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+   
+}
+
