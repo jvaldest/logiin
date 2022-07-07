@@ -2,13 +2,18 @@
 $user=$_POST['user'];
 $pass=$_POST['pass'];
 session_start();
-$_SESSION['superlog'];
+$_SESSION['superlog']='usuarios';
 include('conexion.php');
 $consulta="SELECT * FROM `usuarios` WHERE user='$user' and pass='$pass'";
 $resultado=mysqli_query($conn,$consulta);
-$fila=mysqli_query($resultado);
+$fila=mysqli_num_rows($resultado);
 if($fila){
-	header("location::home.php");
+	
+	?>
+<?PHP
+	include("home.php");
+		
+		
 }else{
 	?>
 	<?php
