@@ -11,14 +11,14 @@
 
 <body>
 
-    <form  action="validar.php" method="POST" >
+    <form  action="validar_r.php" method="POST" >
          <h1>Registro</h1>
             <p>usuario</p>
             <input type="text" placeholder="ingrese un usuario" name="user">
                  <p>password</p>
                  <input type="password" placeholder="ingrese una password" name="pass"><p></p>
                      <input type="submit"  value="Ingresar">
-                     <a href="login.php" title="volver" del enlace”>volver</a>
+                     <a href="index.php" title="volver" del enlace”>volver</a>
 
     </form>
 </body>

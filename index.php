@@ -3,11 +3,16 @@
 <head>
 <meta charset="utf-8">
 <title>Documento sin título</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
-<?php
+
+<body>
+	<?php
 	
 	require("login.php");
 	?>
-<body>
+
+
+
 </body>
 </html>

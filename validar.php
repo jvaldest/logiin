@@ -8,7 +8,6 @@ $consulta="SELECT * FROM `usuarios` WHERE user='$user' and pass='$pass'";
 $resultado=mysqli_query($conn,$consulta);
 $fila=mysqli_num_rows($resultado);
 if($fila){
-	
 	?>
 <?PHP
 	include("home.php");
